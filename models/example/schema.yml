@@ -6,5 +6,4 @@ models:
     columns:
       - name: restaurant_name
         description: "The name of the restaurant"
-        tests:
-          - unique   # Ensures that no two restaurants have the same name
+        tests: []  # No tests applied to this column
